@@ -13,6 +13,7 @@ public class SerializedMain {
 
             objectOutputStream.writeObject(person);
             System.out.println("Serialized data is saved in person.ser");
+            System.out.println(person);
 
         } catch (IOException e) {
             e.printStackTrace();
